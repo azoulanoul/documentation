@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: auto;
+    padding: auto;
+    text-align: start;
+    box-sizing: border-box;
+   
+}
+code{
+    background-color: black;
+    color: white;
+}
+
+
+/* NAVBAR NAVBAR NAVBAR */
+#navbar{
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:black;
+	overflow-x: hidden;
+	padding-top: 10px 10px 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20%;
+
+    
+}
+#logo{
+   margin: 2em;
+	display: block;
+	color:white;
+    border-radius: 5px;
+    width:100%;
+    font-family: "Montserrat";
+	font-size: 1em;
+    text-decoration: none;
+
+}
+#logo:hover{
+   
+	display: block;
+	color:black;
+
+    border-radius: 5px;
+    width:100%;
+	text-align: middle;
+    font-family: "Montserrat";
+    background: white;
+ 
+	
+	font-size: 1em;
+    text-decoration: none;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  
+    
+    
+   
+}
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: left;
+	margin-top: 20%;
+	font-size: 1em;
+    text-decoration: none;
+    
+}
+#navbar a:hover {
+	float: left;
+	display: block;
+	color:black;
+    background:white;
+    border-radius: 5px;
+    width:100%;
+	text-align: left;
+    transition: ease-in 0.5s;
+	
+	font-size: 1em;
+    text-decoration: none;
+    
+}
+   
+   
+/*MAIN DOC MAIN DOC MAIN DOC*/
+
+
+#main-doc{
+  padding-left:24%;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 2em;
+  text-align: start;
+  padding-right: 2em;
+}
+.main-section{
+    padding-top: 2em;
+    text-align: start;
+    margin-top: 2em;
+}
+header{
+    
+    font-weight: 900;
+  
+}
+h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+    code {
+        display: block;
+        text-align: left;
+        white-space: pre;
+        line-height: 2.5;
+        background-color: #e0ebeb;
+        padding: 15px;
+        margin: 10px;
+        color: #000099;
+        border-radius: 5px;
+    }
+    @media only screen and (max-width: 320px) {
+        body {
+            font-size: 2em;
+        }
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    
+    @media screen and (max-height: 450px) {
+        .nav-link {
+            padding-top: 15px;
+        }
+        .nav-link a {
+            font-size: 18px;
+        }
+    }
